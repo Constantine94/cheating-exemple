@@ -1,5 +1,5 @@
 # cheating-exemple
-Exemple de scripturi facute in LUA pentru GTASA-Multiplayer
+> Exemple de scripturi facute in LUA pentru GTASA-Multiplayer
 
 # Tutorial
 Pentru a folosi scripturile de mai sus, aveti nevoie de:
