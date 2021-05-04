@@ -1,0 +1,32 @@
+
+-- Operatorii
+
+
+-- Tipuri de operatori: 
+
+
+-- Operatori aritmetici 
+
+--    + = aduna (variabila = 1  + 1 ) variabila va fi 2
+--    - = scade  (variabila = 2 - 1 ) variabila va fi 1
+--    * = inmultumeste (variabila = 3 * 3 ) variabila va fi 9 
+--    % = modul (variabila = 13 % 2) variabila va fi 1 
+--      pentru ca modul e practic restul  lui 13 / 2 = 6 + 6 + 1 -> rezultatul e restul, 1
+--      Exemple: 
+--      13 / 2 = 6 + 6 + 1 -> modul e 1(restul)
+--      7/ 2 = 3 + 3 + 1 -> modul e 1 (restul)
+
+-- Operatori rationali
+
+--     == verifica daca 2 valori sunt egale (if 0 == 0 then) -> daca 0 e egal cu 0 atunci
+--     ~= verifica daca 2 valori nu sunt egale (if 1 ~=  0 then) -> daca 1 nu e egal cu 0 atunci
+--     > verifica daca prima valoare, e  mai mare decat cea dea doua (if 1 > 0 then) -> daca 1 e mai mare decat 0 atunci
+--     < verifica daca prima valoare, e mai mica decat cea dea doua (if 1 < 2 then) -> daca 1 e mai mic decat 2 atunci
+--     >= verifica daca prima valoare, e mai mare sau egala cu cea dea doua (if 10 >= 10 then) -> daca 10 e mai mare sau egal cu 10 atunci
+--     <= verifica daca prima valoare, este mai mica sau egala cu cea dea doua (if 5 <= 5 then) -> daca 5 este mai mic sau egal cu 5 atunci 
+
+-- Opratori logici
+
+--     and = si (if (0 == 0) and (1== 1) then ) -> daca 0 e egal cu 0 si 1 e egal  atunci
+--     or = ori (if (0 == 0) or (1 == 1) then ) -> daca 0 e egal cu 0 ori 1 e egal cu 1 atunci
+--     not = nu (if  not 1 ~= 1  then ) -> daca nu 1 nu e egal cu 1 atunci
