@@ -1,4 +1,4 @@
-# cheating-exemple
+# Cheating-exemple
 > Exemple de scripturi facute in LUA pentru GTASA-Multiplayer
 
 # Tutorial
