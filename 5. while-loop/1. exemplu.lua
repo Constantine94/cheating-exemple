@@ -11,13 +11,13 @@ function main()
         print("Voi printa chestia asta la infinit")
     end
 
-    -- Output: Va printa la fara sa se opreasca print()-ul de mai sus
+    -- Output: Va printa fara sa se opreasca print()-ul de mai sus "Voi printa chestia asta la infinit"
 
 
-    -- Exemple 2
+    -- Exemplu 2
 
     b = 2
-    while a == 9 do -- a nu e egal cu 9, pentru ca 2 nu e egal cu 9, automat, nu se va executa nimic, expresia nu e adevarata
+    while a == 9 do -- a nu este egal cu 9, pentru ca 2 nu e egal cu 9, automat, nu se va executa nimic, expresia nu e adevarata
         print("Voi printa asta la infinit")
     end
 
