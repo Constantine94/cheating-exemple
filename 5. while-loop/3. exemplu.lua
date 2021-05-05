@@ -18,6 +18,4 @@ function main()
 
     -- Output: Va printa fara sa se opreasca print()-ul de mai sus
 
-
-
 end
