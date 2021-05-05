@@ -8,7 +8,7 @@ function main()
         print("Voi printa chestia asta la infinit")
     end
 
-    -- Output: Va printa la fara sa se opreasca print()-ul de mai sus - Voi printa chestia asta la infinit
+    -- Output: Va printa fara sa se opreasca print()-ul de mai sus - Voi printa chestia asta la infinit
 
 
     -- Exemple 2
