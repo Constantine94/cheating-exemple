@@ -11,7 +11,7 @@ function main()
     -- Output: Va printa fara sa se opreasca print()-ul de mai sus - Voi printa chestia asta la infinit
 
 
-    -- Exemple 2
+    -- Exemplu 2
 
     b = 10
     while b > 9 do -- b e mai mare decat 9, pentru ca 10 e mai mare decat 9. Expresia e adevarata, deci va printa la infinit "Voi printa asta la infinit"
