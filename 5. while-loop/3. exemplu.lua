@@ -4,8 +4,6 @@ function main()
 
     -- Exemplu 1
 
-    -- cat timp a == 1, va printa la infinit fara sa se opreasca "Voi printa chestia asta la infinit"
-
     a = 4
     b = 2
 
