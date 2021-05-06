@@ -9,8 +9,7 @@ function main()
 
     prenume, nume = returnez_string_exemplu2()
     print(prenume, nume) -- va printa "Daniel, Tudose"
-    returnez_string_exemplu3()
-
+    
     un_string = returnez_string_exemplu3()
     print(un_string) -- va printa "Ma numesc Daniel si imi place gradinaritul"
 
