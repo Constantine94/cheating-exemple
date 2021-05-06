@@ -12,7 +12,7 @@ function main()
 
     print(numar) -- va printa 200
 
-    print(nume) -- va printa Daniel, pentru in functii.lua, exista o variabila numita "nume", a carei valoare este "Daniel"
+    print(nume) -- va printa Daniel, pentru ca in functii.lua, exista o variabila numita "nume", a carei valoare este "Daniel"
 
     printez_chestii() -- importa functia printez_chestii din functii.lua, si o executa aici
 
