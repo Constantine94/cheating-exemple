@@ -21,5 +21,3 @@ function aici_pui_orice_nume() -- crearea uneii functii
     print(nume)
 
 end
-
-main()
