@@ -1,7 +1,7 @@
 
 -- cat timp apesi un buton, executa ceva 
 
-require 'math' -- importa o librarie care ne va ajuta sa generam numere random
+require 'math' -- importam o librarie care ne va ajuta sa generam numere random
 
 function main()
 	while true do
