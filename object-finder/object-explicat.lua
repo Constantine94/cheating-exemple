@@ -27,6 +27,7 @@ end
 -- returnand numarul si item-ul dintre paranteze
 
 function daca_e_obiectul_in_array(obiect_id) 
+	-- https://dev.prineside.com/en/gtasa_samp_model_id/ - toate obiectele din GTASA / SAMP le gasesti aici
 	array_cu_obiecte = {1968, 1805} -- aici sunt modelele de obiecte pe care scriptul le cauta
 	for counter, obiect_din_array in ipairs(array_cu_obiecte) do
 		if obiect_id == obiect_din_array then 
@@ -35,17 +36,25 @@ function daca_e_obiectul_in_array(obiect_id)
 	end
 end
 
+-- fiecare obiect, vehicul, jucator sau entitate din joc, are un handler
+	-- iti poti imagina handler-ul ca fiind un cub aflat in fiecare jucator, vehicule sau obiecte, nevizibil ochiului
+	-- ce detine informatii despre aceea entitate
+	-- de exemplu handler-ul unui jucator poate contine informatii despre numele lui, despre viata lui, despre armura, despre coordonatele lui
+	-- despre ce animatie foloseste in momentul respectiv
+	-- practic, handler-ul stocheaza informatii despre entitatea respectiva, indiferent ca e obiect, vehicule sau masina
+	-- orice enitate din joc are un handler diferit, gen, fiecare jucator are un handler diferit
+
 -- table objects = getAllObjects ()
 	-- returneaza un array Ex: ( {1,5111,512,561,6124} ) cu toate obiectele pe care jocul le gaseste in jurul caracterului tau
 	-- mai exact gaseste handler-ele lor
 
--- Model modelId = getObjectModel (Object object) 
-	-- functia asta ia tipul de obiect (de care tip e el) din handlerul obiectului
+-- int modelId = getObjectModel (Object object) 
+	-- functia asta ia tipul de obiect (de care model e el) din handlerul obiectului
 	-- si returneaza modelul inapoi, ex poate returna 1, 2 sau 5 sau etc
 	
 -- bool result = isObjectOnScreen (Object object)
-	-- daca tu te uiti cu camera jocului catre un obiect, chiar daca nu il vezi
-	-- functia asta va returna true or false in functie daca te uiti sau nu la acel obiect
+	-- daca tu te uiti cu camera jocului catre un obiect, chiar daca tu nu il vezi
+	-- functia asta va returna true or false in functie daca tu te uiti sau nu la acel obiect
 	-- true daca te uiti cu camera jocului spre el
 	-- false daca nu te uiti cu camera jocului la el
 	
