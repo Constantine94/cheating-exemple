@@ -62,7 +62,7 @@ end
 	-- functia asta returneaza coordonatele pe mapa ale obiectului, mai exact unde se afla el pe mapa 
 	-- si stocheaza true sau false in variabila result, daca il gaseste sau nu 
 	-- daca result e true, atunci a gasit obiectul si ii poate lua coordonatele
-	-- daca result e false, atunci nu a putut lua coordonatel din acel obiecte
+	-- daca result e false, atunci nu a putut lua coordonatele din acel obiect
 	-- din diferite motive, fie e prea departe, fie nu e in raza ta, fie serverul a sters acel obiect
 
 -- float wposX, float wposY = convert3DCoordsToScreen(float posX, float posY, float posZ)
@@ -75,7 +75,7 @@ end
 	-- uint color e culoarea in ARGB (culorile se pot lua de aici https://hugabor.github.io/color-picker/)
 	
 -- int resX, int resY = getScreenResolution () 
-	-- ia rezolutie din cu care tu te joci, ceea pe care o ai in setarile jocului
+	-- ia rezolutia ferestrei jocului, ceea pe care o ai in setarile jocului
 	-- de exemplu ea poate sa fie 640x480, sau 800x600, in functie de cum ai tu rezolutia in video-settings
 
 -- Exemplu ipairs
