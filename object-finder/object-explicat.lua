@@ -37,11 +37,11 @@ function daca_e_obiectul_in_array(obiect_id)
 end
 
 -- fiecare obiect, vehicul, jucator sau entitate din joc, are un handler
-	-- iti poti imagina handler-ul ca fiind un cub aflat in fiecare jucator, vehicule sau obiecte, nevizibil ochiului
+	-- iti poti imagina handler-ul ca fiind un cub aflat in fiecare jucator, vehicul sau obiect, nevizibil ochiului
 	-- ce detine informatii despre aceea entitate
 	-- de exemplu handler-ul unui jucator poate contine informatii despre numele lui, despre viata lui, despre armura, despre coordonatele lui
 	-- despre ce animatie foloseste in momentul respectiv
-	-- practic, handler-ul stocheaza informatii despre entitatea respectiva, indiferent ca e obiect, vehicule sau masina
+	-- practic, handler-ul stocheaza informatii despre entitatea respectiva, indiferent ca e obiect, vehicul sau masina
 	-- orice enitate din joc are un handler diferit, gen, fiecare jucator are un handler diferit
 
 -- table objects = getAllObjects ()
