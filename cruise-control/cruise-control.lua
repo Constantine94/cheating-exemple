@@ -17,6 +17,7 @@ script_description('Discord: https://discord.gg/25D6yHn9qQ')
 -- F10 - Stop Bot
 -- F11 - Scade viteza vehicul
 -- F12 - Creste viteza vehicul
+-- Shift-Dreapta - Inregistreaza viteza maxima a vehiculului (mergi cu viteza maxima a masina apoi apasa shift dreapta pentru a inregistrea vitexa maxima)
 
 function msg(arg1) 
     print(string.format("{00cc00}Bot: {ffffff}%s", arg1))
