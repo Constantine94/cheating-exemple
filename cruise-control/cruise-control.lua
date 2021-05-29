@@ -13,8 +13,8 @@ script_name('Cruise-Control')
 script_description('Discord: https://discord.gg/25D6yHn9qQ')
 
 -- Utilizare
--- F9 Start  
--- F10 Stop
+-- F9  - Start Bot
+-- F10 - Stop Bot
 -- F11 - Scade viteza vehicul
 -- F12 - Creste viteza vehicul
 
