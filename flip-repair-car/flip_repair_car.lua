@@ -22,7 +22,6 @@ function flip_car()
     if isCharInAnyCar(playerPed) then
         local carHandler = storeCarCharIsInNoSave(playerPed) 
         x, y, z, w = getVehicleQuaternion(carHandler)
-        print(x, y)
         setVehicleQuaternion(carHandler, -0.0010155386989936 , -0.0031407431233674, z, w)
     else
         message("Nu e in masina")
